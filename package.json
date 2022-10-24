@@ -1,0 +1,30 @@
+{
+  "name": "pagina-web-restaurant",
+  "version": "1.0.0",
+  "description": "Pagina web d'un restaurant",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyPH-Phoenix/Pagina-Web-Restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyPH-Phoenix/Pagina-Web-Restaurant/issues"
+  },
+  "homepage": "https://github.com/KyPH-Phoenix/Pagina-Web-Restaurant#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "prettier": "^2.7.1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
