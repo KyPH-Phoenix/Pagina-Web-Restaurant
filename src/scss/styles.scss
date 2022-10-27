@@ -3,9 +3,15 @@
 
 #background-kebab {
     background-image: url(/src/img/kebab.jpg);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
     height: 20vh;
+}
+
+#imagen-jumbotron {
+    max-width: 500px;
 }
