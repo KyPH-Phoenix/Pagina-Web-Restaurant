@@ -5,28 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maestro Kebab - Inicio</title>
     <link rel="stylesheet" href="scss/styles.scss">
 </head>
 
-<body>
-    <header id="background-kebab" class="p-5 text-center bg-image">
-        <!-- Background image -->
-        <div class="text-black">
-            <h1 class="mb-3 mt-5">EL MAESTRO KEBAB</h1>
-            <h5 class="mb-4">El mejor kebab de Palma, chaval</h5>
-            <a class="btn btn-dark btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
-                rel="nofollow" target="_blank">Carta</a>
-            <a class="btn btn-dark btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
-                role="button">Galeria</a>
-        </div>
-        <!-- Background image -->
+<body class="min-vh-100 bg-dark">
+    <header id="background-kebab" class="p-5 text-center bg-image vh-100 rounded-bottom">
+
+        <h1 class="mb-3 mt-5">EL MAESTRO KEBAB</h1>
+        <h5 class="mb-4">El mejor kebab de Palma, chaval</h5>
+        <a class="btn btn-dark btn-lg m-2" href="./carta.html">Carta</a>
+        <a class="btn btn-dark btn-lg m-2" href="./contacto.html">Contacto</a>
+
     </header>
 
-    <main></main>
+    <main class="m-3">
+        <!-- Cabecera Jumbotron -->
+        <section class="jumbotron mx-auto text-light p-5 border rounded row">
+            <div class="col-8">
+                <p class="lead">Disfruta de nuestras pizzas, kebabs, durums y resto de platos caseros.</p>
+                <p class="ins">Todos hechos al momento y con todo el sabor del maestro.</p>
+            </div>
+            <img src="./img/kebab.jpg" alt="kebab" width="100%" class="col-4">
 
-    <footer></footer>
+        </section>
+        
+        <h1 class="mb-5 mt-5 text-light text-center"> NUESTROS PLATOS </h1>
+
+        <!-- Inicio Galeria -->
+        <section class="row">
+            <article class="col-lg-4 col-sm-6 pb-4">
+                <a href="./img/kebab.jpg" target="_blank" title="Lancia 037">
+                    <img src="./img/kebab.jpg" alt="" class="img-thumbnail">
+                </a>
+            </article>
+
+            <article class="col-lg-4 col-sm-6 pb-4">
+                <a href="./img/kebab.jpg" target="_blank" title="Lancia 037">
+                    <img src="./img/kebab.jpg" alt="" class="img-thumbnail">
+                </a>
+            </article>
+
+            <article class="col-lg-4 col-sm-6 pb-4">
+                <a href="./img/kebab.jpg" target="_blank" title="Lancia 037">
+                    <img src="./img/kebab.jpg" alt="" class="img-thumbnail">
+                </a>
+            </article>
+        </section>
+        <!-- Fin galeria -->
+    </main>
+
+    <footer class="bg-dark text-light rounded-top">
+        *INFO DE CONTACTO* *REDES*
+    </footer>
 </body>
+
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

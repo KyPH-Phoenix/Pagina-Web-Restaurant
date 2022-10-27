@@ -1,20 +1,11 @@
 // Import de todo el css de bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-/* Default height for small devices */
-#background-kebab {
-    height: 400px;
-}
-
-/* Height for devices larger than 992px */
-@media (min-width: 992px) {
-    #background-kebab {
-        height: 600px;
-    }
-}
-
 #background-kebab {
     background-image: url(/src/img/kebab.jpg);
     background-size: 100%;
-    height: 100vh;
+}
+
+footer {
+    height: 20vh;
 }
