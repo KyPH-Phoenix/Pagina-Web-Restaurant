@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro Kebab - Reservas</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-dark text-white mx">
+    <header class="px-4 mb-4 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand mb-3" href="index.html">
+                <img src="./img/maestro-logo.png" alt="maestro-logo" width="50">
+            </a>
+
+            <!-- Boton cuando se colapsa -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <section class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Carta
+                        </a>
+                        <section class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="carta.html#pides">Pides</a>
+                            <a class="dropdown-item" href="carta.html#kebabs">Kebabs</a>
+                            <a class="dropdown-item" href="carta.html#pizzas">Pizzas</a>
+                            <a class="dropdown-item" href="carta.html#ensaladas">Ensaladas</a>
+                            <a class="dropdown-item" href="carta.html#bebidas">Bebidas</a>
+
+                        </section>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <main class="mx-5 mb-5 text">
+        <h1>FORMULARIO DE RESERVAS</h1>
+
+        <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <section class="row mb-4">
+                <section class="col">
+                    <section class="form-outline">
+                        <label class="form-label" for="form3Example1">Nombre</label>
+                        <input type="text" id="form3Example1" class="form-control" required/>
+                    </section>
+                </section>
+                <section class="col">
+                    <section class="form-outline">
+                        <label class="form-label" for="form3Example2">Apellido</label>
+                        <input type="text" id="form3Example2" class="form-control" />
+                    </section>
+                </section>
+            </section>
+
+            <!-- Email input -->
+            <section class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Email</label>
+                <input type="email" id="form3Example3" class="form-control" required/>
+            </section>
+
+            <!-- TELNUMBER input -->
+            <section class="form-outline mb-4">
+                <label class="form-label" for="form3Example4">Telefono</label>
+                <input type="text" id="form3Example4" class="form-control" required/>
+            </section>
+
+            <section class="row mb-4">
+                <section class="col">
+                    <section class="form-outline">
+                        <label class="form-label" for="form3Example1">Fecha</label>
+                        <input type="date" id="form3Example5" class="form-control" required/>
+                    </section>
+                </section>
+                <section class="col">
+                    <section class="form-outline">
+                        <label class="form-label" for="form3Example2">Hora</label>
+                        <input type="time" id="form3Example6" class="form-control" />
+                    </section>
+                </section>
+            </section>
+            <section class="form-outline mb-4">
+                <input type="submit" id="form3Example4" class="form-control w-25" required/>
+            </section>
+    </main>
+
+    <footer class="bg-dark text-light rounded m-2 p-5 border border-secondary row">
+        <section class="border border-secondary text-center rounded">
+            <ul class="m-3 list-group">
+                <li class="btn btn-dark">
+                    <a href="./aboutus.html" class="link-light">Sobre Nosotros</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./carta.html" class="link-light">Carta</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./index.html" class="link-light">Inicio</a>
+                </li>
+            </ul>
+        </section>
+        <p class="m-4">
+            &copy; Maestro Kebab 2022
+        </p>
+    </footer>
+</body>
+
+</html>

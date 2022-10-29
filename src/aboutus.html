@@ -7,12 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maestro Kebab - Sobre Nosotros</title>
     <link rel="stylesheet" href="scss/styles.scss">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="bg-dark text-white">
     <header class="px-4 mb-4 border-bottom">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand mb-3" href="index.html">
+                <img src="./img/maestro-logo.png" alt="maestro-logo" width="50">
+            </a>
 
             <!-- Boton cuando se colapsa -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -34,26 +55,40 @@
                             <a class="dropdown-item" href="carta.html#pides">Pides</a>
                             <a class="dropdown-item" href="carta.html#kebabs">Kebabs</a>
                             <a class="dropdown-item" href="carta.html#pizzas">Pizzas</a>
+                            <a class="dropdown-item" href="carta.html#ensaladas">Ensaladas</a>
+                            <a class="dropdown-item" href="carta.html#bebidas">Bebidas</a>
+
                         </section>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./carta.html">Carta</a>
+                        <a class="nav-link" href="./aboutus.html">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./aboutus.html">Contacto</a>
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
                     </li>
-
                 </ul>
             </section>
         </nav>
     </header>
 
     <main>
-        <section class="border-bottom pb-5 mt-4">
+        <section class="border-bottom pb-5 mt-4 px-5">
             <h1>CONTACTO</h1>
+            <section>
+                <a href="https://m.facebook.com/El-Maestro-PizzeriaKebab-100990464700807/" target="_blank">
+                    <img src="./img/facebook-logo.png" alt="" width="100">
+                </a>
+                <a href="https://glovoapp.com/es/es/palma/el-maestro-kebab-palma/?utm_campaign=maplinks&utm_medium=organic&utm_source=googlemaps" target="_blank">
+                    <img src="./img/glovo-logo.png" alt="" width="115">
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="./img/youtube-logo.png" alt="" width="100" class="mt-2">
+                </a>
+                <p class="mt-4">Tel: 871 53 69 36</p>
+            </section>
         </section>
     
-        <section class="border-bottom pb-5 mt-4">
+        <section class="border-bottom pb-5 mt-4 px-5">
             <h1>LOCALIZACIÓN</h1>
 
             <iframe width="600" height="500" id="gmap_canvas"
@@ -62,10 +97,35 @@
             </iframe>
         </section>
 
-        <section class="border-bottom pb-5 mt-4">
+        <section class="pb-3 mt-4 px-5">
             <h1>HORARIO</h1>
+            <section>
+                <p>Nuestro horario de apertura es Todos los Dias de 12:00-16:30 y de 19:30-24:00</p>
+                <p>LUNES CERRADO</p>
+            </section>
         </section>
+
+        
     </main>
+
+    <footer class="bg-dark text-light rounded m-2 p-5 border border-secondary row">
+        <section class="border border-secondary text-center rounded">
+            <ul class="m-3 list-group">
+                <li class="btn btn-dark">
+                    <a href="./aboutus.html" class="link-light">Sobre Nosotros</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./carta.html" class="link-light">Carta</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./index.html" class="link-light">Inicio</a>
+                </li>
+            </ul>
+        </section>
+        <p class="m-4">
+            &copy; Maestro Kebab 2022
+        </p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

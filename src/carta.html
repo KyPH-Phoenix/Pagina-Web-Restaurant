@@ -7,12 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maestro Kebab - Carta</title>
     <link rel="stylesheet" href="scss/styles.scss">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="bg-dark text-white">
     <header class="px-4 mb-4 border-bottom">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand mb-3" href="index.html">
+                <img src="./img/maestro-logo.png" alt="maestro-logo" width="50">
+            </a>
 
             <!-- Boton cuando se colapsa -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -34,45 +55,151 @@
                             <a class="dropdown-item" href="carta.html#pides">Pides</a>
                             <a class="dropdown-item" href="carta.html#kebabs">Kebabs</a>
                             <a class="dropdown-item" href="carta.html#pizzas">Pizzas</a>
+                            <a class="dropdown-item" href="carta.html#ensaladas">Ensaladas</a>
+                            <a class="dropdown-item" href="carta.html#bebidas">Bebidas</a>
+
                         </section>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./carta.html">Carta</a>
+                        <a class="nav-link" href="./aboutus.html">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./aboutus.html">Contacto</a>
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
                     </li>
-
                 </ul>
             </section>
         </nav>
     </header>
 
-    <H1>CARTA</H1>
+    <main class="px-4 mb-4">
+        <H1>CARTA</H1>
 
-    <p>Todos los productos pueden contener trazas de huevo y/o frutos secos</p>
+        <p>Todos los productos pueden contener trazas de huevo y/o frutos secos</p>
 
-    <section>
-        <h2 id="pides">PIDES</h2>
-        <ul>
-            <li>Pide con queso feta y mozzarella - 7,50€</li>
-            <li>Pide con espinacas, queso feta y huevo - 8,50€</li>
-            <li>Pide con carne picada y champiñones - 8,50€</li>
-            <li>Pide con carne picada y huevo - 9,00€</li>
-            <li>Pide con carne de kebab, mozzarella y huevo - 9,00€</li>
-            <li>Pide con jamón york, bacon y mozarella - 9,00€</li>
-            <li>Pide con bacon, huevo y mozzarella - 9,00€</li>
-            <li>Pide Sultan con trozos de carne de ternera, champiñones, pimiento, cebolla y guisantes - 9,00€</li>
-            <li>Pide al curry con pechuga de pollo y mozzarela - 9,00€</li>
-            <li>Pide Ottomano con carne picada, nueces y mozzarella - 8,50€</li>
-            <li>Pide Vegetal con mozzarella, cebolla, aceñtunas, pimiento asado, parmesano, maiz y alcachotas - 8,50€
-            </li>
-        </ul>
-    </section>
+        <section id="pides" class="mb-4 mx-5">
+            <h2>PIDES</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con queso feta y mozzarella - 7,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con espinacas, queso feta y huevo - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con carne picada y champiñones - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con carne picada y huevo - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con carne de kebab, mozzarella y huevo - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con jamón york, bacon y mozarella - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide con bacon, huevo y mozzarella - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide Sultan con trozos de carne de ternera, champiñones, pimiento, cebolla y guisantes - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide al curry con pechuga de pollo y mozzarela - 9,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide Ottomano con carne picada, nueces y mozzarella - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pide Vegetal con mozzarella, cebolla, aceñtunas, pimiento asado, parmesano, maiz y alcachotas - 8,50€</li>
+            </ul>
+        </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <section id="pizzas" class="mb-4 mx-5">
+            <h2>PIZZAS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Margarita (Salsa de tomate y mozzarella) - 7,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Kebab (Salsa de tomate, mozzarella y carne de kebab) - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Jamon (Salsa de tomate, jamon york y mozzarella) - 8,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Caprichosa (Salsa de tomate, jamon york, champiñones y mozzarella) - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Hawaiana (Salsa de tomate, jamon york, piña y mozzarella) - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Salami (Salsa de tomate, salami y mozzarella) 8,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Atún (Salsa de tomate, atuún, cebolla, pimiento asado y mozarella) - 8,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Carbonara (Salsa carbonara, bacon, champiñones, parmesano, nata y mozarella) - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Barbacoa (Salsa de tomate, carne picada, salsa barbacoa, pimiento asado y mozarella) - 8,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Pepperoni (Salsa de tomate, pepperoni, pimiento asado y mozarella) - 8,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">4 Quesos (Salsa de tomate, mozarella, chedar, emmental y queso azul) - 8,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">El maestro (Salsa de tomate, champiñones, jamon serrano, acite de trufa, aceitunas, rucula ymozarella) - 9,50€</li>
+            </ul>
+        </section>
+
+        <section id="kebabs" class="mb-4 mx-5">
+            <h2>KEBABS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Doner Vegetal (Pan, queso feta, ensalada y salsa) - 4,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Doner Falafel (Pan, falafel, ensalada y salsa) - 4,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Doner Kebab (Pan, carne de pollo/ternera/mixto, ensalada y salsa) - 4,80€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Durum Vegetal (Tortita, queso feta, ensalada y salsa) - 4,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Durum Falafel (Tortita, falafel, ensalada y salsa) - 4,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Durum Kebab (Tortita, carne de pollo/ternera/mixto, ensalada y salsa) - 5,80€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Plato Kebab (Carne de pollo/ternera/mixto con ensalada, salsa, pan y patatas) - 7,90€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Plato Falafel (Falafel con ensalada, salsa, pan y patatas) - 7,90€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Lahmacun Pizza Turca (Masa de Lahmacun, carne de pollo/ternera/mixto, ensalada y salsa) - 6,80€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Kebab y durum solo carne +1,00€</li>
+            </ul>
+        </section>
+
+        <section id="menus" class="mb-4 mx-5">
+            <h2>MENÚS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Menu kebab (incluye un kebab + patatas + bebida) - 7,80€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Menu durum (incluye un durum + patatas + bebida) - 8,80€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Menu hamburguesa (hamburguesa de pollo + patatas + bebida) - 7,80€</li>
+            </ul>
+        </section>
+
+        <section id="ensaladas" class="mb-4 mx-5">
+            <h2>ENSALADAS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Ensalada Mixta (lechuga, lombarda, tomate, pimiento, maíz, queso feta, cebolla, jamon york y zanahoria) - 5,70€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Ensalada Campesina (tomate, pepino, pimiento, queso feta y cebolla) - 5,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Ensalada de Atún (lechuga, cebolla, atún y tomate) - 4,70€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Ensalada Tropical (lechuga, tomate, jamon york y piña) - 5,40€</li>
+            </ul>
+        </section>
+
+        <section id="extras" class="mb-4 mx-5">
+            <h2>EXTRAS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Patatas fritas - 2,40€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Patatas fritas con queso feta - 3,30€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Patatas bravas - 3,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Arroz - 1,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Extra queso feta - 1,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Extra salsa - 0,70€</li>
+            </ul>
+        </section>
+
+        <section id="bebidas" class="mb-4 mx-5">
+            <h2>BEBIDAS</h2>
+            <ul class="list-group">
+                <li class="list-group-item text-white bg-dark col-lg-6">Agua - 1,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Fanta - 1,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Cocacola - 1,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Bitter Kas - 1,50€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Caña - 2,00€</li>
+                <li class="list-group-item text-white bg-dark col-lg-6">Jarra - 3,00€</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light rounded m-2 p-5 border border-secondary row">
+        <section class="border border-secondary text-center rounded">
+            <ul class="m-3 list-group">
+                <li class="btn btn-dark">
+                    <a href="./aboutus.html" class="link-light">Sobre Nosotros</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./carta.html" class="link-light">Carta</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./index.html" class="link-light">Inicio</a>
+                </li>
+            </ul>
+        </section>
+        <p class="m-4">
+            &copy; Maestro Kebab 2022
+        </p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

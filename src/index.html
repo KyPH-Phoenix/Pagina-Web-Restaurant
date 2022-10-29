@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maestro Kebab - Inicio</title>
     <link rel="stylesheet" href="scss/styles.scss">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body class="min-vh-100 bg-dark">
@@ -16,6 +35,7 @@
         <h5 class="mb-4">El mejor kebab de Palma, chaval</h5>
         <a class="btn btn-dark btn-lg m-2" href="./carta.html">Carta</a>
         <a class="btn btn-dark btn-lg m-2" href="./aboutus.html">Contacto</a>
+        <a class="btn btn-dark btn-lg m-2" href="./reservas.html">Reservas</a>
 
     </header>
 
@@ -29,7 +49,7 @@
                     o pedirla para llevar y disfrutarlo en tu casa.
                     Tambien estamos en <a
                         href="https://glovoapp.com/es/es/palma/el-maestro-kebab-palma/?utm_campaign=maplinks&utm_medium=organic&utm_source=googlemaps"
-                        class="link-secondary">glovo</a>.</p>
+                        class="link-secondary" target="_blank">glovo</a>.</p>
             </article>
             <img src="./img/pides.png" id="imagen-jumbotron" alt="pides" width="100%"
                 class="col-lg-4 col-sm-12 mx-auto">
@@ -41,29 +61,29 @@
         <!-- Inicio Galeria -->
         <section class="row">
             <section class="col-lg-4 col-sm-6 pb-4">
-                <a href="./img/pizza.png" target="_blank" title="Pizzas">
+                <a href="./carta.html#pizzas" title="Pizzas">
                     <img src="./img/pizza.png" alt="" class="img-thumbnail mb-4">
                 </a>
-                <a href="./img/pides.png" target="_blank" title="Pides">
+                <a href="./carta.html#pides" title="Pides">
                     <img src="./img/pides.png" alt="" class="img-thumbnail mb-5">
                 </a>
             </section>
 
             <article class="col-lg-4 col-sm-6 pb-4">
-                <a href="./img/calzone.png" target="_blank" title="Calzones">
+                <a href="./carta.html#pizzas" title="Calzones">
                     <img src="./img/calzone.png" alt="" class="img-thumbnail mb-4">
                 </a>
 
-                <a href="./img/durum.jpg" target="_blank" title="Durums">
+                <a href="./carta.html#kebabs" title="Durums">
                     <img src="./img/durum.jpg" alt="" class="img-thumbnail">
                 </a>
             </article>
 
             <article class="col-lg-4 col-sm-6 pb-4">
-                <a href="./img/kebab.jpg" target="_blank" title="Kebabs">
+                <a href="./carta.html#kebabs" title="Kebabs">
                     <img src="./img/kebab.jpg" alt="" class="img-thumbnail mb-4">
                 </a>
-                <a href="./img/kebabplato.png" target="_blank" title="Kebab Plato">
+                <a href="./carta.html#kebabs" title="Kebab Plato">
                     <img src="./img/kebabplato.png" alt="" class="img-thumbnail">
                 </a>
             </article>
@@ -72,14 +92,22 @@
     </main>
 
     <footer class="bg-dark text-light rounded m-2 p-5 border border-secondary row">
-        <section class="col-lg-6 mb-4 border border-secondary">
-            HOLA
-
-            <a href="./aboutus.html">Sobre nosotros</a>
+        <section class="border border-secondary text-center rounded">
+            <ul class="m-3 list-group">
+                <li class="btn btn-dark">
+                    <a href="./aboutus.html" class="link-light">Sobre Nosotros</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./carta.html" class="link-light">Carta</a>
+                </li>
+                <li class="btn btn-dark">
+                    <a href="./index.html" class="link-light">Inicio</a>
+                </li>
+            </ul>
         </section>
-        <section class="col-lg-6 mb-4 border border-secondary">
-            HOLA
-        </section>
+        <p class="m-4">
+            &copy; Maestro Kebab 2022
+        </p>
     </footer>
 </body>
 
